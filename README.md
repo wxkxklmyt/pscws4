@@ -1,5 +1,5 @@
 # 官网(我的梦)：https://www.4ui.cn/
-# pscws4
+# 基于PSCWS4的中文分词工具
 词库官方网址：http://www.xunsearch.com/scws/<br>
 这是用纯 PHP 代码实现的 C 版 Libscws 的全部功能，即第四版的 PSCWS<br>
 PSCWS4 使用文档：http://www.xunsearch.com/scws/docs.php#pscws4<br>
