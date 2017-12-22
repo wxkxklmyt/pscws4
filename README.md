@@ -18,8 +18,20 @@ PSCWS4 使用文档：http://www.xunsearch.com/scws/docs.php#pscws4<br>
  * @return string|array 字符串|数组
  */
 $scws = new Scws();
-$scws -> scws('能做到柔和、善解、忍辱，才有办法与人结好缘。——证严法师《静思语》', 5, false);
+$scws -> scws('能做到柔和、善解、忍辱，才有办法与人结好缘。——证严法师《静思语》');
 </pre>
+<hr>
+<h3>运行结果</h3>
+<pre>
+静思 善解 法师 柔和 做到
+</pre>
+<hr>
+<dl>
+  <dt>注：</dt>
+  <dd>1、默认返回结果为字符串，返回字符串支持自定义分隔符，默认为空格</dd>
+  <dd>2、支持返回结果为数组</dd>
+  <dd>3、支持返回词数量自定义，默认为5个</dd>
+</dl>
 <hr>
 官网(我的梦)：https://www.4ui.cn/
 <hr>
