@@ -28,7 +28,7 @@ class Scws{
         $scws -> set_rule(PATH . '/lib/rules.utf8.ini');
         $scws -> set_ignore(true);
         $scws -> send_text($text);
-        $words = $scws -> get_tops(5);
+        $words = $scws -> get_tops($number);
         $scws -> close();
         
         $tags = [];
